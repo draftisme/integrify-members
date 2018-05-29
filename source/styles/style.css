@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+img.mySlide{
+    z-index: -1;
+    position: absolute;
+    background-size: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+#output{
+    width: 10%;
+    text-align: center;
+    color: white;
+}
+
+#output img{
+    width: 100%;
+}
+
+span.show-member{
+    cursor: pointer;
+    border-radius: 3px;
+    text-align: center;
+    width: 15%;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.897);
+    margin: 0 5px;
+}
+
+.fas{
+    color: orange;
+    font-size: 0.75em;
+}
+
+#member-info{
+    text-align: left;
+    color: black;
+    margin: 20px 0;
+    width: 200%;
+    min-height: 40vh;
+    background: orange;
+}
+
+#member-info #header-name{
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+#member-info #member-body{
+    padding: 30px 40px;
+}
+
+#member-info #member-body p{    
+    width: 100%;
+}
+
+.hide{
+    display: none;
+}

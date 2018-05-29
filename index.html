@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <link rel="stylesheet" href="./source/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+<div id="container">
+    <img class="mySlide"src="./source/bg-img/integrify-36.jpg" alt="">
+    
+    <h2>Integrify Academy Student's Photo Gallery</h2>
+
+    <div id="output">
+        <div id="member-img">
+
+        </div>
+        <!-- Info goes here -->
+        <span class="show-member">
+            <i class="fas fa-ellipsis-h" onClick="toggleShow()"></i>
+        </span>
+        <span class="show-member">
+            <i class="fas fa-arrow-right" onClick="go()"></i>
+        </span>
+        <div id="member-info" class="hide">
+            <div id="header-name"></div>
+            <div id="member-body"></div>
+        </div>
+    </div>
+</div>
+<script src="./source/js/data.js"></script>
+<script src="./source/js/script.js"></script>
+<script src="./source/js/slide.js"></script>
+</body>
+</html>
